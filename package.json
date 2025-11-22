@@ -1,0 +1,33 @@
+{
+  "name": "node-pty",
+  "version": "1.0.0",
+  "description": "Prebuilt binaries of node-pty for Node.js v20.x (LTS) on Windows x64. No build tools required.",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apricore/node-pty-prebuilt-win64-v20.git"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "keywords": [
+    "node-pty",
+    "prebuilt",
+    "windows",
+    "x64",
+    "terminal",
+    "pty",
+    "node20"
+  ],
+  "author": "apricore",
+  "license": "MIT",
+  "os": ["win32"],
+  "cpu": ["x64"],
+  "scripts": {
+    "test": "echo \"No tests included in prebuilt package\" && exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/apricore/node-pty-prebuilt-win64-v20/issues"
+  },
+  "homepage": "https://github.com/apricore/node-pty-prebuilt-win64-v20#readme"
+}
